@@ -36,7 +36,7 @@
             // ButtonFormPattiensAccounting
             // 
             this.ButtonFormPattiensAccounting.Location = new System.Drawing.Point(11, 69);
-            this.ButtonFormPattiensAccounting.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonFormPattiensAccounting.Margin = new System.Windows.Forms.Padding(2);
             this.ButtonFormPattiensAccounting.Name = "ButtonFormPattiensAccounting";
             this.ButtonFormPattiensAccounting.Size = new System.Drawing.Size(125, 44);
             this.ButtonFormPattiensAccounting.TabIndex = 0;
@@ -47,18 +47,18 @@
             // ButtonFormDoctorAccounting
             // 
             this.ButtonFormDoctorAccounting.Location = new System.Drawing.Point(11, 11);
-            this.ButtonFormDoctorAccounting.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonFormDoctorAccounting.Margin = new System.Windows.Forms.Padding(2);
             this.ButtonFormDoctorAccounting.Name = "ButtonFormDoctorAccounting";
             this.ButtonFormDoctorAccounting.Size = new System.Drawing.Size(125, 44);
             this.ButtonFormDoctorAccounting.TabIndex = 1;
-            this.ButtonFormDoctorAccounting.Text = "доктора";
+            this.ButtonFormDoctorAccounting.Text = "докторы";
             this.ButtonFormDoctorAccounting.UseVisualStyleBackColor = true;
             this.ButtonFormDoctorAccounting.Click += new System.EventHandler(this.FormDoctor_Click);
             // 
             // ButtonCloseMainForm
             // 
             this.ButtonCloseMainForm.Location = new System.Drawing.Point(11, 194);
-            this.ButtonCloseMainForm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ButtonCloseMainForm.Margin = new System.Windows.Forms.Padding(2);
             this.ButtonCloseMainForm.Name = "ButtonCloseMainForm";
             this.ButtonCloseMainForm.Size = new System.Drawing.Size(125, 44);
             this.ButtonCloseMainForm.TabIndex = 2;
@@ -75,7 +75,7 @@
             this.Controls.Add(this.ButtonCloseMainForm);
             this.Controls.Add(this.ButtonFormDoctorAccounting);
             this.Controls.Add(this.ButtonFormPattiensAccounting);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainForm";
             this.Text = "MainForm";
             this.Load += new System.EventHandler(this.MainForm_Load);
