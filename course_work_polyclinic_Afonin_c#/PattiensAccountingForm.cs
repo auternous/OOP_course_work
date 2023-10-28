@@ -325,9 +325,6 @@ namespace course_work_polyclinic_Afonin_c_
             MessageBox.Show($"Фильтрация сброшена", "Внимание", 0, MessageBoxIcon.Information);
         }
 
-        private void dataGridViewPattiens_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
-        }
     }
 }

@@ -70,3 +70,22 @@ C:\Users\markl\OneDrive\Desktop\Лавов ООП\course_work_polyclinic_Afonin_
 C:\Users\markl\OneDrive\Desktop\Лавов ООП\course_work_polyclinic_Afonin_c#\obj\Debug\course_work_polyclinic_Afonin_c#.csproj.CopyComplete
 C:\Users\markl\OneDrive\Desktop\Лавов ООП\course_work_polyclinic_Afonin_c#\obj\Debug\course_work_polyclinic_Afonin_c#.exe
 C:\Users\markl\OneDrive\Desktop\Лавов ООП\course_work_polyclinic_Afonin_c#\obj\Debug\course_work_polyclinic_Afonin_c#.pdb
+E:\code\OOP_course_work\course_work_polyclinic_Afonin_c#\bin\Debug\course_work_polyclinic_Afonin_c#.exe.config
+E:\code\OOP_course_work\course_work_polyclinic_Afonin_c#\bin\Debug\course_work_polyclinic_Afonin_c#.exe
+E:\code\OOP_course_work\course_work_polyclinic_Afonin_c#\bin\Debug\course_work_polyclinic_Afonin_c#.pdb
+E:\code\OOP_course_work\course_work_polyclinic_Afonin_c#\bin\Debug\Newtonsoft.Json.dll
+E:\code\OOP_course_work\course_work_polyclinic_Afonin_c#\bin\Debug\Newtonsoft.Json.xml
+E:\code\OOP_course_work\course_work_polyclinic_Afonin_c#\obj\Debug\course_work_polyclinic_Afonin_c#.csproj.AssemblyReference.cache
+E:\code\OOP_course_work\course_work_polyclinic_Afonin_c#\obj\Debug\course_work_polyclinic_Afonin_c_.DoctorAccountingForm.resources
+E:\code\OOP_course_work\course_work_polyclinic_Afonin_c#\obj\Debug\course_work_polyclinic_Afonin_c_.FindPattiens.resources
+E:\code\OOP_course_work\course_work_polyclinic_Afonin_c#\obj\Debug\course_work_polyclinic_Afonin_c_.FormPattiens.resources
+E:\code\OOP_course_work\course_work_polyclinic_Afonin_c#\obj\Debug\course_work_polyclinic_Afonin_c_.FormDoctors.resources
+E:\code\OOP_course_work\course_work_polyclinic_Afonin_c#\obj\Debug\course_work_polyclinic_Afonin_c_.Info.resources
+E:\code\OOP_course_work\course_work_polyclinic_Afonin_c#\obj\Debug\course_work_polyclinic_Afonin_c_.MainForm.resources
+E:\code\OOP_course_work\course_work_polyclinic_Afonin_c#\obj\Debug\course_work_polyclinic_Afonin_c_.PattiensAccountingForm.resources
+E:\code\OOP_course_work\course_work_polyclinic_Afonin_c#\obj\Debug\course_work_polyclinic_Afonin_c_.Properties.Resources.resources
+E:\code\OOP_course_work\course_work_polyclinic_Afonin_c#\obj\Debug\course_work_polyclinic_Afonin_c#.csproj.GenerateResource.cache
+E:\code\OOP_course_work\course_work_polyclinic_Afonin_c#\obj\Debug\course_work_polyclinic_Afonin_c#.csproj.CoreCompileInputs.cache
+E:\code\OOP_course_work\course_work_polyclinic_Afonin_c#\obj\Debug\course_work_polyclinic_Afonin_c#.csproj.CopyComplete
+E:\code\OOP_course_work\course_work_polyclinic_Afonin_c#\obj\Debug\course_work_polyclinic_Afonin_c#.exe
+E:\code\OOP_course_work\course_work_polyclinic_Afonin_c#\obj\Debug\course_work_polyclinic_Afonin_c#.pdb

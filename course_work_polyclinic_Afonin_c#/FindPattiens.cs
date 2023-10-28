@@ -29,8 +29,8 @@ namespace course_work_polyclinic_Afonin_c_
 
         async private void ButtonFindPattien_Click(object sender, EventArgs e)
         {
-            if (CheckOnCorrectTextBoxIll(textBoxFindIll)&&
-                CheckOnCorrectTextBoxLastName(textBoxFindLastName)&&
+            if (CheckOnCorrectTextBoxIll(textBoxFindIll) &&
+                CheckOnCorrectTextBoxLastName(textBoxFindLastName) &&
                 CheckOnCorrectTextBoxName(textBoxFindName))
             {
                 var pattiens = await ReadFromFile<Pattiens>(FILE_PATTIENS);
@@ -40,9 +40,11 @@ namespace course_work_polyclinic_Afonin_c_
                 }
                 else
                 {
+                    bool patientFound = false;
+
                     foreach (var pattien in pattiens)
                     {
-                        if (pattien.Name==textBoxFindName.Text &&
+                        if (pattien.Name == textBoxFindName.Text &&
                             pattien.LastName == textBoxFindLastName.Text &&
                             pattien.Disease == textBoxFindIll.Text)
                         {
@@ -50,24 +52,20 @@ namespace course_work_polyclinic_Afonin_c_
                                 $"Имя {pattien.Name}\n" +
                                 $"Фамилия {pattien.LastName}\n" +
                                 $"Возраст {pattien.Age}\n" +
-                                $"Болезнь {pattien.Disease}", "Найденный пациент", 
+                                $"Болезнь {pattien.Disease}", "Найденный пациент",
                                 0, MessageBoxIcon.Information);
-                            break;
-                        }
-                        else
-                        {
-                            Exception.MessageBox(0, $"пациента с именем {textBoxFindName.Text},\n" +
-                                $"фамилией{textBoxFindLastName.Text} и болезнью {textBoxFindIll.Text} не существует",
-                                "ошибка", 0);
+                            patientFound = true;
                             break;
                         }
                     }
+
+                    if (!patientFound)
+                    {
+                        Exception.MessageBox(0, $"Пациента с именем {textBoxFindName.Text},\n" +
+                            $"фамилией {textBoxFindLastName.Text} и болезнью {textBoxFindIll.Text} не существует",
+                            "ошибка", 0);
+                    }
                 }
-            }
-            else
-            {
-                Exception.MessageBox(0, "некорректные данные, только символы кириллицы\n" +
-                    "проверьте введенные значения", "ошибка", 0);
             }
         }
 

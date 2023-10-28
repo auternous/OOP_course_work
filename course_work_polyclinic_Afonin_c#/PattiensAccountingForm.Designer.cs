@@ -118,7 +118,6 @@
             this.dataGridViewPattiens.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewPattiens.Size = new System.Drawing.Size(556, 239);
             this.dataGridViewPattiens.TabIndex = 6;
-            this.dataGridViewPattiens.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewPattiens_CellContentClick);
             this.dataGridViewPattiens.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewPattiens_CellDoubleClick);
             // 
             // Column1
@@ -219,10 +218,7 @@
             "Имя",
             "Фамилия",
             "Возраст",
-            "Район проживания",
-            "Болезнь",
-            "Наличие справки",
-            "Месяц начала болезни"});
+            "Болезнь"});
             this.comboBoxFilterPattiens.Location = new System.Drawing.Point(13, 292);
             this.comboBoxFilterPattiens.Margin = new System.Windows.Forms.Padding(2);
             this.comboBoxFilterPattiens.Name = "comboBoxFilterPattiens";
